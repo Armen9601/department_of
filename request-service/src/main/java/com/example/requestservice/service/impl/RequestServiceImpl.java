@@ -1,11 +1,11 @@
-package com.departament.requestservice.service.impl;
+package com.example.requestservice.service.impl;
 
-import com.departament.requestservice.dto.RequestDto;
-import com.departament.requestservice.entity.Request;
-import com.departament.requestservice.exception.EntityNotFoundException;
-import com.departament.requestservice.mapper.RequestMapper;
-import com.departament.requestservice.repo.RequestRepository;
-import com.departament.requestservice.service.RequestService;
+import com.example.requestservice.dto.RequestDto;
+import com.example.requestservice.entity.Request;
+import com.example.requestservice.exception.EntityNotFoundException;
+import com.example.requestservice.mapper.RequestMapper;
+import com.example.requestservice.repo.RequestRepository;
+import com.example.requestservice.service.RequestService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 

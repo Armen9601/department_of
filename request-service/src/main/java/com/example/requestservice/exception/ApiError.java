@@ -1,7 +1,5 @@
-package com.departament.requestservice.exception;
+package com.example.requestservice.exception;
 
-import java.util.Collections;
-import java.util.List;
 import org.springframework.http.HttpStatus;
 
 public class ApiError {

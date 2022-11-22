@@ -1,4 +1,4 @@
-package com.departament.requestservice.dto;
+package com.example.requestservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

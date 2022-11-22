@@ -1,7 +1,7 @@
-package com.departament.requestservice.controller;
+package com.example.requestservice.controller;
 
-import com.departament.requestservice.dto.RequestDto;
-import com.departament.requestservice.service.RequestService;
+import com.example.requestservice.dto.RequestDto;
+import com.example.requestservice.service.RequestService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -21,8 +21,18 @@ public class RequestController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<RequestDto> findAll(@PathVariable("id") UUID id) {
+    public ResponseEntity<RequestDto> findById(@PathVariable("id") UUID id) {
         return ResponseEntity.ok(requestService.findById(id));
+    }
+
+    @PutMapping
+    public ResponseEntity<RequestDto> update(@RequestBody RequestDto requestDto) {
+        return ResponseEntity.ok(requestService.update(requestDto));
+    }
+
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") UUID id) {
+        requestService.delete(id);
     }
 
 }

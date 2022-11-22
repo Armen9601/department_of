@@ -1,6 +1,6 @@
-package com.departament.requestservice.repo;
+package com.example.requestservice.repo;
 
-import com.departament.requestservice.entity.Request;
+import com.example.requestservice.entity.Request;
 import org.springframework.data.couchbase.repository.CouchbaseRepository;
 import org.springframework.stereotype.Repository;
 

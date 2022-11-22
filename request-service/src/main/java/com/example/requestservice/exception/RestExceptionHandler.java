@@ -1,4 +1,4 @@
-package com.departament.requestservice.exception;
+package com.example.requestservice.exception;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.Ordered;

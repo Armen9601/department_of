@@ -1,6 +1,6 @@
-package com.departament.requestservice.service;
+package com.example.requestservice.service;
 
-import com.departament.requestservice.dto.RequestDto;
+import com.example.requestservice.dto.RequestDto;
 
 import java.util.UUID;
 

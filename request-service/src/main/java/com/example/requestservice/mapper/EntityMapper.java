@@ -1,4 +1,4 @@
-package com.departament.requestservice.mapper;
+package com.example.requestservice.mapper;
 
 import java.util.List;
 

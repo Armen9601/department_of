@@ -1,5 +1,4 @@
-//don't forget to always put your package name here
-package com.departament.requestservice.config;
+package com.example.requestservice.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration;
