@@ -1,0 +1,21 @@
+services:
+
+  db:
+    image: couchbase
+    ports:
+      - 11210:11210
+      - 8091:8091
+
+  request-service:
+    image: request-service
+    ports:
+    - 8080:8080
+    build:
+      context: request-service
+      dockerfile: Dockerfile
+
+  redis:
+    image: redis
+    ports:
+      - '6379:6379'
+
